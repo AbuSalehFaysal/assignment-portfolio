@@ -1,0 +1,27 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: royalblue;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.right {
+    width: 40%;
+    float: right;
+}
+
+img {
+    width: 350px;
+    border-radius: 7%;
+}
