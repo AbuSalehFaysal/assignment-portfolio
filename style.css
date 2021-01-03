@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 span {
 }
 
 .right {
+    margin-top: 2%;
     width: 40%;
     float: right;
 }
@@ -24,4 +26,45 @@ h1 span {
 img {
     width: 350px;
     border-radius: 7%;
+}
+
+.first-section {
+    background: url('images/top-banner.png');
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.button {
+    text-decoration: none;
+    background-color: royalblue;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: royalblue;
+    border: 1px solid royalblue;
+}
+
+.second-section {
+    height: 500px;
+    margin-top: 10%;
+}
+
+.second-left {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.second-right {
+    width: 30%;
+    float: right;
+}
+
+.third-section {
+    height: 500px;
+    background: red;
 }
