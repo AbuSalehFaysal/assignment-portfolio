@@ -7,6 +7,14 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
 h1 span {
     color: royalblue;
 }
@@ -15,6 +23,7 @@ h1 span {
     width: 40%;
     float: left;
     margin-left: 5%;
+    letter-spacing: 0.1em;
 }
 
 .right {
@@ -48,6 +57,20 @@ img {
     border: 1px solid royalblue;
 }
 
+.button-gray {
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button-gray:hover {
+    background-color: #fff;
+    color: gray;
+    border: 1px solid gray;
+}
+
 .second-section {
     height: 500px;
     margin-top: 10%;
@@ -69,10 +92,28 @@ img {
     margin-left: 25%;
 }
 
-.third-section {
+.experience-section {
     height: 500px;
-    background: red;
     margin-top: 10%;
+}
+
+.experience-section .left {
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-left: 5px solid;
+    border-image: linear-gradient(90deg, rgba(29,174,212,1) 38%, rgba(42,99,171,1) 76%);
+    border-image-slice: 1;
+}
+
+.experience-section .right {
+    box-shadow: 10px 10px 40px gray;
+    border-left: 5px solid;
+    border-image: linear-gradient(90deg, rgba(29,174,212,1) 38%, rgba(42,99,171,1) 76%);
+    border-image-slice: 1;
+    margin-top: 0;
+    margin-right: 5%;
+    padding: 20px;
+    height: 85%;
 }
 
 .button-green-inverse {
@@ -101,4 +142,15 @@ img {
 .button-purple-inverse:hover {
     background-color: #154360;
     color: #fff;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: royalblue;
 }
